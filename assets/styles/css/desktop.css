@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  background-color: rgba(58, 58, 58, 0.8);
+}
+.container > .top {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.container > .top .logo img {
+  height: 25px;
+}
+.container > .middle {
+  margin-bottom: 50px;
+}
+.container > .middle .content .top .message {
+  margin-bottom: 10px;
+}
+.container > .middle .content .top .message h1 {
+  font-size: 36px;
+}
+.container > .middle .content .top .message h1 span {
+  font-weight: 400;
+}
+.container > .middle .content .bottom .attachment .list {
+  line-height: 30px;
+}
+.container > .middle .content .bottom .attachment .list li {
+  font-size: 16px;
+}
+.container > .middle .content .bottom .attachment .list li a {
+  color: #fff;
+}
+.container > .bottom .feedback .top {
+  margin-bottom: 10px;
+}
+.container > .bottom .feedback .top .description span {
+  font-size: 16px;
+}
+.container > .bottom .feedback .bottom .form {
+  height: 40px;
+  width: 374px;
+  padding: 3px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.container > .bottom .feedback .bottom .form .left {
+  float: left;
+  width: calc(100% - 147px);
+}
+.container > .bottom .feedback .bottom .form .left .group input {
+  width: 100%;
+  border: none;
+  height: 40px;
+  outline: none;
+  padding: 0 12px;
+  font-size: 13px;
+}
+.container > .bottom .feedback .bottom .form .right {
+  width: 120px;
+  float: right;
+}
+.container > .bottom .feedback .bottom .form .right .group button {
+  width: 100%;
+  border: none;
+  height: 40px;
+  outline: none;
+  color: #3e3e3e;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #f1e070;
+}
+.container > .bottom .feedback .bottom .form:after {
+  content: '';
+  clear: both;
+  display: block;
+}

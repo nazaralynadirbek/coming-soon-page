@@ -1,0 +1,119 @@
+@yellow: #f1e070;
+
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  background-color: rgba(58, 58, 58, .8);
+
+  >.top {
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+    .logo {
+      img {
+        height: 25px;
+      }
+    }
+  }
+
+  >.middle {
+    margin-bottom: 50px;
+
+    .content {
+      .top {
+        .message {
+          margin-bottom: 10px;
+
+          h1 {
+            font-size: 36px;
+
+            span {
+              font-weight: 400;
+            }
+          }
+        }
+      }
+      .bottom {
+        .attachment {
+          .list {
+            line-height: 30px;
+
+            li {
+              font-size: 16px;
+
+              a {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  >.bottom {
+    .feedback {
+      .top {
+        margin-bottom: 10px;
+
+        .description {
+          span {
+            font-size: 16px;
+          }
+        }
+      }
+      .bottom {
+        .form {
+          height: 40px;
+          width: 374px;
+          padding: 3px;
+          margin: 0 auto;
+          border-radius: 4px;
+          background-color: #fff;
+
+          .left {
+            float: left;
+            width: calc(~"100% - 147px");
+
+            .group {
+              input {
+                width: 100%;
+                border: none;
+                height: 40px;
+                outline: none;
+                padding: 0 12px;
+                font-size: 13px;
+              }
+            }
+          }
+          .right {
+            width: 120px;
+            float: right;
+
+            .group {
+              button {
+                width: 100%;
+                border: none;
+                height: 40px;
+                outline: none;
+                color: #3e3e3e;
+                font-size: 13px;
+                font-weight: 600;
+                border-radius: 4px;
+                background-color: @yellow;
+              }
+            }
+          }
+
+          &:after {
+            content: '';
+            clear: both;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
